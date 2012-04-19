@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3f0d734a-7646-4d78-9320-1c8439b15ee5" name="Administrator@LENOVO-8CF3EC03 2012-04-19 18:34:37" runUser="LENOVO-8CF3EC03\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1702ca55-b2e6-4c19-a36c-a2c662bf31bb">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_LENOVO-8CF3EC03 2012-04-19 18_34_37">
+      <DeploymentItem filename="c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T18:34:37.4687500+08:00" queuing="2012-04-19T18:34:38.9687500+08:00" start="2012-04-19T18:34:38.9843750+08:00" finish="2012-04-19T18:34:39.4062500+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestOneThrow" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="534dd4ea-e99c-c005-cfde-1534f216e828">
+      <Execution id="976c9a26-89c5-4038-90a2-bdc60a183f80" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneThrow" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="534dd4ea-e99c-c005-cfde-1534f216e828" executionId="976c9a26-89c5-4038-90a2-bdc60a183f80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="976c9a26-89c5-4038-90a2-bdc60a183f80" testId="534dd4ea-e99c-c005-cfde-1534f216e828" testName="TestOneThrow" computerName="LENOVO-8CF3EC03" duration="00:00:00.0227257" startTime="2012-04-19T18:34:39.0000000+08:00" endTime="2012-04-19T18:34:39.3750000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="976c9a26-89c5-4038-90a2-bdc60a183f80">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2a0ea38-7281-4928-9175-2dcb814ecf67" name="Administrator@LENOVO-8CF3EC03 2012-04-19 22:18:37" runUser="LENOVO-8CF3EC03\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1702ca55-b2e6-4c19-a36c-a2c662bf31bb">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_LENOVO-8CF3EC03 2012-04-19 22_18_37">
+      <DeploymentItem filename="c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T22:18:37.8125000+08:00" queuing="2012-04-19T22:18:38.9062500+08:00" start="2012-04-19T22:18:38.9218750+08:00" finish="2012-04-19T22:18:39.6093750+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" passed="3" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b">
+      <Execution id="353c1892-fc9d-4360-bb92-617832db6f7f" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a">
+      <Execution id="75d905d7-236f-410b-bffd-929c834a92fa" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa">
+      <Execution id="0d6b07c4-f7c4-4a86-8179-7c7f7a4b09c1" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestEndOfArray" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="64c9a24f-83f2-acd0-85c0-f022e50dda50">
+      <Execution id="dd701538-1b7b-4183-add5-7a7ff95f3e41" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEndOfArray" />
+    </UnitTest>
+    <UnitTest name="TesTenthFrameSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="351115c1-696e-e582-7b32-a3811daa0b58">
+      <Execution id="a5f852a8-d9a5-4336-801f-3b107e93ad2c" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TesTenthFrameSpare" />
+    </UnitTest>
+    <UnitTest name="TestPerfectGame" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="9d4683a2-462d-019c-ab2c-815c4e464c69">
+      <Execution id="fb747ac3-5bf4-49ab-9d70-fbaa4181e306" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPerfectGame" />
+    </UnitTest>
+    <UnitTest name="TestSampleGame" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="09c7ec2e-1330-24e5-f0fd-255e33ad0c37">
+      <Execution id="26c9c04c-6f86-49e7-91d2-804ebf881562" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSampleGame" />
+    </UnitTest>
+    <UnitTest name="TestTenthFrameSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="5a2bc9d9-9ed0-92a0-cda0-1f803901bc5c">
+      <Execution id="ebde702a-f883-456b-bca2-2df57a083d88" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTenthFrameSpare" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="486c8204-6176-7854-7fd5-765251fd96dd">
+      <Execution id="81fbd1b0-a584-44cb-871c-4a05470ec6a9" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+    <UnitTest name="TestSimpleStrike" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="553d1297-df82-a65e-c8d2-6a462b3708f5">
+      <Execution id="479c3d3b-9d75-4ed4-9e5d-c5cfcbf06c74" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleStrike" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09c7ec2e-1330-24e5-f0fd-255e33ad0c37" executionId="26c9c04c-6f86-49e7-91d2-804ebf881562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" executionId="0d6b07c4-f7c4-4a86-8179-7c7f7a4b09c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="351115c1-696e-e582-7b32-a3811daa0b58" executionId="a5f852a8-d9a5-4336-801f-3b107e93ad2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486c8204-6176-7854-7fd5-765251fd96dd" executionId="81fbd1b0-a584-44cb-871c-4a05470ec6a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="553d1297-df82-a65e-c8d2-6a462b3708f5" executionId="479c3d3b-9d75-4ed4-9e5d-c5cfcbf06c74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a2bc9d9-9ed0-92a0-cda0-1f803901bc5c" executionId="ebde702a-f883-456b-bca2-2df57a083d88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64c9a24f-83f2-acd0-85c0-f022e50dda50" executionId="dd701538-1b7b-4183-add5-7a7ff95f3e41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d4683a2-462d-019c-ab2c-815c4e464c69" executionId="fb747ac3-5bf4-49ab-9d70-fbaa4181e306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" executionId="75d905d7-236f-410b-bffd-929c834a92fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" executionId="353c1892-fc9d-4360-bb92-617832db6f7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="26c9c04c-6f86-49e7-91d2-804ebf881562" testId="09c7ec2e-1330-24e5-f0fd-255e33ad0c37" testName="TestSampleGame" computerName="LENOVO-8CF3EC03" duration="00:00:00.0472143" startTime="2012-04-19T22:18:38.9375000+08:00" endTime="2012-04-19T22:18:39.3750000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26c9c04c-6f86-49e7-91d2-804ebf881562">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TestSampleGame 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TestSampleGame() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 166
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0d6b07c4-f7c4-4a86-8179-7c7f7a4b09c1" testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" testName="TestTwoThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.0027799" startTime="2012-04-19T22:18:39.3906250+08:00" endTime="2012-04-19T22:18:39.4062500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d6b07c4-f7c4-4a86-8179-7c7f7a4b09c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5f852a8-d9a5-4336-801f-3b107e93ad2c" testId="351115c1-696e-e582-7b32-a3811daa0b58" testName="TesTenthFrameSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.0019030" startTime="2012-04-19T22:18:39.4218750+08:00" endTime="2012-04-19T22:18:39.4375000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5f852a8-d9a5-4336-801f-3b107e93ad2c">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TesTenthFrameSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TesTenthFrameSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 191
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="81fbd1b0-a584-44cb-871c-4a05470ec6a9" testId="486c8204-6176-7854-7fd5-765251fd96dd" testName="TestSimpleSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.0005171" startTime="2012-04-19T22:18:39.4375000+08:00" endTime="2012-04-19T22:18:39.4531250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81fbd1b0-a584-44cb-871c-4a05470ec6a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="479c3d3b-9d75-4ed4-9e5d-c5cfcbf06c74" testId="553d1297-df82-a65e-c8d2-6a462b3708f5" testName="TestSimpleStrike" computerName="LENOVO-8CF3EC03" duration="00:00:00.0018301" startTime="2012-04-19T22:18:39.4531250+08:00" endTime="2012-04-19T22:18:39.4687500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="479c3d3b-9d75-4ed4-9e5d-c5cfcbf06c74">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TestSimpleStrike 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TestSimpleStrike() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 132
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebde702a-f883-456b-bca2-2df57a083d88" testId="5a2bc9d9-9ed0-92a0-cda0-1f803901bc5c" testName="TestTenthFrameSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.0054618" startTime="2012-04-19T22:18:39.4687500+08:00" endTime="2012-04-19T22:18:39.4843750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebde702a-f883-456b-bca2-2df57a083d88">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TestTenthFrameSpare 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TestTenthFrameSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 200
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd701538-1b7b-4183-add5-7a7ff95f3e41" testId="64c9a24f-83f2-acd0-85c0-f022e50dda50" testName="TestEndOfArray" computerName="LENOVO-8CF3EC03" duration="00:00:00.0026131" startTime="2012-04-19T22:18:39.5000000+08:00" endTime="2012-04-19T22:18:39.5000000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd701538-1b7b-4183-add5-7a7ff95f3e41">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TestEndOfArray 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TestEndOfArray() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 154
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb747ac3-5bf4-49ab-9d70-fbaa4181e306" testId="9d4683a2-462d-019c-ab2c-815c4e464c69" testName="TestPerfectGame" computerName="LENOVO-8CF3EC03" duration="00:00:00.0018887" startTime="2012-04-19T22:18:39.5156250+08:00" endTime="2012-04-19T22:18:39.5312500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb747ac3-5bf4-49ab-9d70-fbaa4181e306">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 longTest.gameTest.TestPerfectGame 引发了异常: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。</Message>
+          <StackTrace>    在 longTest.gameTest.TestPerfectGame() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75d905d7-236f-410b-bffd-929c834a92fa" testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" testName="TestFourThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.0003603" startTime="2012-04-19T22:18:39.5312500+08:00" endTime="2012-04-19T22:18:39.5468750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75d905d7-236f-410b-bffd-929c834a92fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="353c1892-fc9d-4360-bb92-617832db6f7f" testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" testName="TestSimpleFrameAfterSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.0173901" startTime="2012-04-19T22:18:39.5468750+08:00" endTime="2012-04-19T22:18:39.5781250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="353c1892-fc9d-4360-bb92-617832db6f7f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;18&gt;，实际为: &lt;15&gt;。</Message>
+          <StackTrace>   在 longTest.gameTest.TestSimpleFrameAfterSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

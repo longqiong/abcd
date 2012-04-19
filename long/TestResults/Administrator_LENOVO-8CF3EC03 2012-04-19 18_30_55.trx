@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="556b4fac-04fd-4d90-811d-3d0e0d25bedf" name="Administrator@LENOVO-8CF3EC03 2012-04-19 18:30:55" runUser="LENOVO-8CF3EC03\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1702ca55-b2e6-4c19-a36c-a2c662bf31bb">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_LENOVO-8CF3EC03 2012-04-19 18_30_55">
+      <DeploymentItem filename="c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T18:30:55.0000000+08:00" queuing="2012-04-19T18:30:59.4062500+08:00" start="2012-04-19T18:30:59.5312500+08:00" finish="2012-04-19T18:31:01.8750000+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="1" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b">
+      <Execution id="e348b839-7b09-4dce-a8c7-e5da1a08d332" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a">
+      <Execution id="a5679916-083b-417c-993b-a3165bd8411f" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa">
+      <Execution id="f45704c3-9e88-49a3-98d4-f4e9343763a8" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="486c8204-6176-7854-7fd5-765251fd96dd">
+      <Execution id="c02129e1-588d-439e-b833-807d0b044252" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" executionId="f45704c3-9e88-49a3-98d4-f4e9343763a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486c8204-6176-7854-7fd5-765251fd96dd" executionId="c02129e1-588d-439e-b833-807d0b044252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" executionId="a5679916-083b-417c-993b-a3165bd8411f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" executionId="e348b839-7b09-4dce-a8c7-e5da1a08d332" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f45704c3-9e88-49a3-98d4-f4e9343763a8" testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" testName="TestTwoThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.0430490" startTime="2012-04-19T18:30:59.8125000+08:00" endTime="2012-04-19T18:31:01.0156250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f45704c3-9e88-49a3-98d4-f4e9343763a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="c02129e1-588d-439e-b833-807d0b044252" testId="486c8204-6176-7854-7fd5-765251fd96dd" testName="TestSimpleSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.2456974" startTime="2012-04-19T18:31:01.0625000+08:00" endTime="2012-04-19T18:31:01.3281250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c02129e1-588d-439e-b833-807d0b044252">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;2&gt;，实际为: &lt;3&gt;。</Message>
+          <StackTrace>   在 longTest.gameTest.TestSimpleSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5679916-083b-417c-993b-a3165bd8411f" testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" testName="TestFourThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.1127146" startTime="2012-04-19T18:31:01.3593750+08:00" endTime="2012-04-19T18:31:01.5000000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5679916-083b-417c-993b-a3165bd8411f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;3&gt;，实际为: &lt;4&gt;。</Message>
+          <StackTrace>   在 longTest.gameTest.TestFourThrowsNoMark() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e348b839-7b09-4dce-a8c7-e5da1a08d332" testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" testName="TestSimpleFrameAfterSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.1251941" startTime="2012-04-19T18:31:01.5312500+08:00" endTime="2012-04-19T18:31:01.6718750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e348b839-7b09-4dce-a8c7-e5da1a08d332">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;18&gt;，实际为: &lt;15&gt;。</Message>
+          <StackTrace>   在 longTest.gameTest.TestSimpleFrameAfterSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

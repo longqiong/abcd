@@ -1,0 +1,5 @@
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.exe
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.pdb
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\obj\x86\Debug\@long.exe
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\obj\x86\Debug\@long.pdb

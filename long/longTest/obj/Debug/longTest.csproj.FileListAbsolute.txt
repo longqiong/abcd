@@ -1,0 +1,7 @@
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\obj\Debug\ResolveAssemblyReference.cache
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\bin\Debug\longTest.dll
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\bin\Debug\longTest.pdb
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\bin\Debug\@long.exe
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\bin\Debug\@long.pdb
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\obj\Debug\longTest.dll
+c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\obj\Debug\longTest.pdb

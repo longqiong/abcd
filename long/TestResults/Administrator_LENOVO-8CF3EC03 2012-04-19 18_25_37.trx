@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e7d4275f-4a57-40d1-95c2-6afd10467a8e" name="Administrator@LENOVO-8CF3EC03 2012-04-19 18:25:37" runUser="LENOVO-8CF3EC03\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="1702ca55-b2e6-4c19-a36c-a2c662bf31bb">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_LENOVO-8CF3EC03 2012-04-19 18_25_37">
+      <DeploymentItem filename="c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\long\bin\Debug\@long.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T18:25:37.0937500+08:00" queuing="2012-04-19T18:25:40.7343750+08:00" start="2012-04-19T18:25:40.8593750+08:00" finish="2012-04-19T18:25:42.7812500+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b">
+      <Execution id="9b5b2d4c-6964-4056-954f-8633b4128f5e" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a">
+      <Execution id="4bd94639-5335-4563-8614-cb6f80869ba7" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestOneThrow" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="534dd4ea-e99c-c005-cfde-1534f216e828">
+      <Execution id="a326e6c5-c462-4bdb-8335-7671db63eb7a" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneThrow" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa">
+      <Execution id="43d30cb5-9653-480e-9ef4-9da04eaf1c86" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="c:\documents and settings\administrator\my documents\visual studio 2010\projects\long\longtest\bin\debug\longtest.dll" id="486c8204-6176-7854-7fd5-765251fd96dd">
+      <Execution id="b192ad03-b617-46a4-b263-3bc995dd2bf9" />
+      <TestMethod codeBase="c:/Documents and Settings/Administrator/My Documents/Visual Studio 2010/Projects/long/longTest/bin/Debug/longTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="longTest.gameTest, longTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" executionId="43d30cb5-9653-480e-9ef4-9da04eaf1c86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486c8204-6176-7854-7fd5-765251fd96dd" executionId="b192ad03-b617-46a4-b263-3bc995dd2bf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="534dd4ea-e99c-c005-cfde-1534f216e828" executionId="a326e6c5-c462-4bdb-8335-7671db63eb7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" executionId="4bd94639-5335-4563-8614-cb6f80869ba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" executionId="9b5b2d4c-6964-4056-954f-8633b4128f5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="43d30cb5-9653-480e-9ef4-9da04eaf1c86" testId="24c67a76-bbe9-4fc1-be19-cf6bbf6ff5fa" testName="TestTwoThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.0392144" startTime="2012-04-19T18:25:40.9687500+08:00" endTime="2012-04-19T18:25:42.1718750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43d30cb5-9653-480e-9ef4-9da04eaf1c86">
+    </UnitTestResult>
+    <UnitTestResult executionId="b192ad03-b617-46a4-b263-3bc995dd2bf9" testId="486c8204-6176-7854-7fd5-765251fd96dd" testName="TestSimpleSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.0006461" startTime="2012-04-19T18:25:42.2031250+08:00" endTime="2012-04-19T18:25:42.2187500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b192ad03-b617-46a4-b263-3bc995dd2bf9">
+    </UnitTestResult>
+    <UnitTestResult executionId="a326e6c5-c462-4bdb-8335-7671db63eb7a" testId="534dd4ea-e99c-c005-cfde-1534f216e828" testName="TestOneThrow" computerName="LENOVO-8CF3EC03" duration="00:00:00.0003371" startTime="2012-04-19T18:25:42.2500000+08:00" endTime="2012-04-19T18:25:42.2656250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a326e6c5-c462-4bdb-8335-7671db63eb7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4bd94639-5335-4563-8614-cb6f80869ba7" testId="a3d98fb8-a6b1-c0c0-4afb-04520b9ab21a" testName="TestFourThrowsNoMark" computerName="LENOVO-8CF3EC03" duration="00:00:00.0004168" startTime="2012-04-19T18:25:42.2812500+08:00" endTime="2012-04-19T18:25:42.3125000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd94639-5335-4563-8614-cb6f80869ba7">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b5b2d4c-6964-4056-954f-8633b4128f5e" testId="e0c2c34b-1f3c-d094-2f2a-8ad3016ece9b" testName="TestSimpleFrameAfterSpare" computerName="LENOVO-8CF3EC03" duration="00:00:00.2245425" startTime="2012-04-19T18:25:42.3281250+08:00" endTime="2012-04-19T18:25:42.5625000+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b5b2d4c-6964-4056-954f-8633b4128f5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;18&gt;，实际为: &lt;15&gt;。</Message>
+          <StackTrace>   在 longTest.gameTest.TestSimpleFrameAfterSpare() 位置 c:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\long\longTest\gameTest.cs:行号 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

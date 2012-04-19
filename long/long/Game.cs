@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace @long
+{
+    public class Game
+    {
+        //private int score;
+        //private int[] throws = new int[21];
+        //private int currentThrow;
+        private int currentFrame = 0;
+        private bool isFirstThrow = true;
+        private Scorer scorer = new Scorer();
+
+
+        public int Score 
+        { 
+            get { return ScoreForFrame(currentFrame ); }
+            
+        }
+
+
+        public void Add(int pins)
+        {
+            //throws[currentThrow++] = pins;
+            //score += pins;
+            scorer.AddThrow(pins);
+            AdjustCurrentFrame(pins);
+
+        }
+
+        private void AdjustCurrentFrame( int pins)
+        {
+            if (LastBallInFrame(pins))
+                AdvanceFrame();
+            else
+                isFirstThrow = false;               
+        }
+        private bool LastBallInFrame(int pins)
+        {
+            return Strike(pins) || (!isFirstThrow);
+
+        }
+        private bool Strike(int pins)
+        {
+            return (isFirstThrow && pins == 10);
+
+        }
+        private void AdvanceFrame()
+        {
+            currentFrame++;
+            if (currentFrame > 10)
+                currentFrame = 10;
+        }
+        public int  ScoreForFrame(int theFrame)
+        {
+            return scorer.ScoreForFrame(theFrame);
+           /* int ball = 0;
+            int score = 0;
+            for (int currentFrame  = 0;
+                 currentFrame < theFrame;
+                currentFrame++)
+            { 
+              int firstThrow = throws[ball++];
+               int secondThrow = throws[ball++];
+               int frameScore = firstThrow + secondThrow;
+
+               if ( frameScore == 10)
+
+                   score += frameScore + throws[ball];
+               else
+                   score += frameScore;
+
+            }*/
+            
+        }
+
+       /* public int CurrentFrame 
+        {
+            get { return currentThrow; }
+        }*/
+    }
+}
